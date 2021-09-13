@@ -81,18 +81,18 @@
 // if car speed is less than 80 display "car speed is slow", if greater than 80 but less than 120 than display 
 // " car speed is moderate" and if greater than 120 display "car speed is fast"
 
-const carSpeed = +prompt("What's the car speed now")
-if(carSpeed == "" || carSpeed == " " || carSpeed == "  "){
-        alert("Can't find any value")
-}
-else if(carSpeed < 80 && carSpeed > 1){
-    alert("car speed is slow")
-}
-else if(carSpeed > 80 && carSpeed < 120){
-    alert("car speed is moderate")
-}
-else if(carSpeed > 120){
-    alert("car speed is fast")
-}    
+// const carSpeed = +prompt("What's the car speed now")
+// if(carSpeed == "" || carSpeed == " " || carSpeed == "  "){
+//         alert("Can't find any value")
+// }
+// else if(carSpeed < 80 && carSpeed > 1){
+//     alert("car speed is slow")
+// }
+// else if(carSpeed > 80 && carSpeed < 120){
+//     alert("car speed is moderate")
+// }
+// else if(carSpeed > 120){
+//     alert("car speed is fast")
+// }    
 
 // -----------------------------------------------
